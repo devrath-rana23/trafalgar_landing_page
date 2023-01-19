@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "is_active": 1,
+      "user_name": "Edward Newgate",
+      "user_designation": "Founder Circle",
+      "description": "Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely",
+      "background_color": "red",
+      "color": "white"
+    },
+    {
+      "is_active": 0,
+      "user_name": "Edward Newgate 1",
+      "user_designation": "Founder Circle 1",
+      "description": "Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely 1",
+      "background_color": "purple",
+      "color": "white"
+    },
+    {
+      "is_active": 0,
+      "user_name": "Edward Newgate 2",
+      "user_designation": "Founder Circle 2",
+      "description": "Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely 2",
+      "background_color": "orange",
+      "color": "white"
+    },
+    {
+      "is_active": 0,
+      "user_name": "Edward Newgate 3",
+      "user_designation": "Founder Circle 3",
+      "description": "Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely 3",
+      "background_color": "green",
+      "color": "white"
+    },
+    {
+      "is_active": 0,
+      "user_name": "Edward Newgate 4",
+      "user_designation": "Founder Circle 4",
+      "description": "Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely 4",
+      "background_color": "linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%)",
+      "color": "#ffffff"
+    }
+  ]
+}
