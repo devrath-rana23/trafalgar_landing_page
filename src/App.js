@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import right_arrow_icon from "./right_arrow_icon.svg";
 import search from "./search.svg";
 import vector_bg from "./vector_bg.svg";
 import illustration2 from "./illustration2.svg";
@@ -200,7 +201,51 @@ function App() {
               to do a disease detection...
             </p>
             <a className="articles-section-card-link">
-              <sub>Read more</sub>
+              <sub>
+                Read more <img src={right_arrow_icon} alt="right_arrow_icon" />
+              </sub>
+            </a>
+          </div>
+          <div className="articles-section-card">
+            <figure className="articles-section-card-image-container">
+              <img
+                src={image1}
+                alt="image1"
+                className="articles-section-card-image"
+              />
+            </figure>
+            <h1 className="articles-section-card-heading">
+              Disease detection, check up in the laboratory
+            </h1>
+            <p className="articles-section-card-para">
+              In this case, the role of the health laboratory is very important
+              to do a disease detection...
+            </p>
+            <a className="articles-section-card-link">
+              <sub>
+                Read more <img src={right_arrow_icon} alt="right_arrow_icon" />
+              </sub>
+            </a>
+          </div>
+          <div className="articles-section-card">
+            <figure className="articles-section-card-image-container">
+              <img
+                src={image1}
+                alt="image1"
+                className="articles-section-card-image"
+              />
+            </figure>
+            <h1 className="articles-section-card-heading">
+              Disease detection, check up in the laboratory
+            </h1>
+            <p className="articles-section-card-para">
+              In this case, the role of the health laboratory is very important
+              to do a disease detection...
+            </p>
+            <a className="articles-section-card-link">
+              <sub>
+                Read more <img src={right_arrow_icon} alt="right_arrow_icon" />
+              </sub>
             </a>
           </div>
         </div>
@@ -208,142 +253,71 @@ function App() {
           <button className="articles-section-btn">View all</button>
         </div>
       </article>
-      {/* <div>
-        <p>
-          <i> italic text </i>
-        </p>
-        <hr />
-        <p>
-          <b>bold text </b>
-        </p>
-        <p>
-          <strong> strong text </strong>
-        </p>
-        <p>
-          <em> strong text </em>
-        </p>
-        <p>
-          <sub> subscripted text </sub>
-        </p>
-        <p>
-          <sup> superscripted text </sup>
-        </p>
-        <p>
-          <small> small text </small>
-        </p>
-        <p>
-          <del> deleted text </del>
-        </p>
-        <p>
-          <ins> inserted text </ins>
-        </p>
-        <p>
-          <blockquote> quoted text </blockquote>
-        </p>
-        <p>
-          <q> short quoted text </q>
-        </p>
-        <p>
-          <cite> cited text </cite>
-        </p>
-        <p>
-          <address> address </address>
-        </p>
-        <p>
-          <abbr> inserted text </abbr>
-        </p>
-        <p>
-          <code> code snippet </code>
-        </p>
-        <br />
-        <p>
-          <mark> marked text </mark>
-        </p>
-        <ul>
-          <li> HTML </li>
-          <li> CSS </li>
-          <li> JavaScrip t</li>
-        </ul>
-        <ol>
-          <li> HTML </li>
-          <li> CSS </li>
-          <li> JavaScript </li>
-        </ol>
-        <form action="/info_url/" method="post">
-          <label for="firstName"> First name: </label>
-          <input
-            type="text"
-            name="firstName"
-            placeholder="first name"
-            required
-          />
-          <label for="lastName"> Last name: </label>
-          <input type="text" name="lastName" placeholder="last name" required />
-          <label for="bio"> Bio: </label>
-          <textarea name="bio"></textarea>
-          <select id="age">
-            <option value="15-18">15-18</option>
-            <option value="19-25">19-25</option>
-            <option value="26-30">26-30</option>
-            <option value="31-36">31-36</option>
-          </select>
-          <input type="submit" value="Submit" />
-        </form>
-        <table>
-          <thead>
-            <tr>
-              <th> Course </th>
-              <th> Progress </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td> HTML </td>
-              <td> 90% </td>
-            </tr>
-            <tr>
-              <td> CSS </td>
-              <td> 80% </td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <td> JavaScript </td>
-              <td> 95% </td>
-            </tr>
-          </tfoot>
-        </table>
-        <header>
-          <h1> Welcome </h1>
-          <h3> Hello World! </h3>
-        </header>
-        <nav>
-          <ul>
-            <li>
-              <a href="#">Home</a>
+      <footer>
+        <article className="footer-section">
+          <figure>
+            <img src={logo} alt="logo_icon" />
+          </figure>
+          <p className="footer-para">
+            Trafalgar provides progressive, and affordable healthcare,
+            accessible on mobile and online for everyone
+          </p>
+          <sub className="footer-sub">
+            ©Trafalgar PTY LTD 2020. All rights reserved
+          </sub>
+        </article>
+        <div className="footer-section">
+          <h1 className="footer-heading">Company</h1>
+          <ul className="footer-links-container">
+            <li className="footer-link-container">
+              <a className="footer-link">About</a>
             </li>
-            <li>
-              <a href="#">Services</a>
+            <li className="footer-link-container">
+              <a className="footer-link">Testimonials</a>
             </li>
-            <li>
-              <a href="#">About us</a>
+            <li className="footer-link-container">
+              <a className="footer-link">Find a doctor</a>
+            </li>
+            <li className="footer-link-container">
+              <a className="footer-link">Apps</a>
             </li>
           </ul>
-        </nav>
-        <article>
-          <h1> An article about us </h1>
-          <p> Article content </p>
-
-          <aside>
-            <p> It's sunny today </p>
-          </aside>
-        </article>
-        Progress:{" "}
-        <progress min="0" max="100" value="50">
-          {" "}
-        </progress>
-        <footer> Copyright 2022-2099. All Rights Reserved. </footer>
-      </div> */}
+        </div>
+        <div className="footer-section">
+          <h1 className="footer-heading">Region</h1>
+          <ul className="footer-links-container">
+            <li className="footer-link-container">
+              <a className="footer-link">Indonesia</a>
+            </li>
+            <li className="footer-link-container">
+              <a className="footer-link">Singapore</a>
+            </li>
+            <li className="footer-link-container">
+              <a className="footer-link">Hongkong</a>
+            </li>
+            <li className="footer-link-container">
+              <a className="footer-link">Canada</a>
+            </li>
+          </ul>
+        </div>
+        <div className="footer-section">
+          <h1 className="footer-heading">Help</h1>
+          <ul className="footer-links-container">
+            <li className="footer-link-container">
+              <a className="footer-link">Help center</a>
+            </li>
+            <li className="footer-link-container">
+              <a className="footer-link">Contact support</a>
+            </li>
+            <li className="footer-link-container">
+              <a className="footer-link">Instructions</a>
+            </li>
+            <li className="footer-link-container">
+              <a className="footer-link">How it works</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </div>
   );
 }

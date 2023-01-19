@@ -261,6 +261,8 @@ main {
   line-height: 32px;
   color: #000000;
   mix-blend-mode: normal;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .articles-section-card-para {
@@ -269,6 +271,8 @@ main {
   line-height: 28px;
   color: #7d7987;
   mix-blend-mode: normal;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .articles-section-card-link {
@@ -277,6 +281,8 @@ main {
   line-height: 28px;
   color: #4089ed;
   mix-blend-mode: normal;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .articles-section-btn-container {
@@ -295,4 +301,63 @@ main {
   border-radius: 55px;
   padding: 2px 50px 2px 50px;
   background: #ffffff;
+}
+
+footer {
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  padding: 125px 200px 125px 200px;
+  display: flex;
+  gap: 200px;
+}
+
+.footer-para {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.footer-sub {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.footer-heading {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 60px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  margin: 0;
+}
+
+.footer-links-container {
+  margin: 0;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.footer-link {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.footer-links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
